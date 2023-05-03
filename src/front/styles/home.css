@@ -5,3 +5,242 @@
     one more css for each page that will contain the selected used 
     on that page only (the ones not reused in other pages).
 */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+i.fa {
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0px 0px 2px #888;
+    padding: 0.5em 0.6em;
+}
+
+.signup-css{
+    background-color: #AB46D2;
+    margin-top: 100px; 
+    margin-bottom: 100px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(103, 58, 183, 0.7);
+    padding: 50px 0px 50px 0px;
+    height: 75vh;  
+}
+
+.signup-flow{
+    overflow: hidden;
+}
+
+.signup-form{
+    border-radius: 20px 0px 0px 20px;
+    height: 65vh;
+}
+
+.image-form{
+    border-radius: 0px 20px 20px 0px;
+    height: 65vh;
+}
+
+.my-account-css{
+    margin-top: 100px; 
+    margin-bottom: 100px;
+    border-radius: 20px;
+    height: 600px;  
+}
+
+.login-ccs{
+    background-color: #AB46D2;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(103, 58, 183, 0.7);
+    padding: 0px 0px 0px 0px; 
+    height: 75vh;
+}
+
+.login-form{
+    border-radius: 0px 20px 20px 0px;
+    box-shadow: 0 0 10px rgba(54, 13, 124, 0.7);
+    height: 65vh;
+}
+
+.login-img{
+    border-radius: 20px 0px 0px 20px;;
+    box-shadow: 0 0 10px rgba(54, 13, 124, 0.7);
+    height: 65vh;
+    object-fit: contain;
+}
+
+.fondo{
+    background-color:  rgba(171, 70, 210, 0.9);
+    box-shadow: 0 0 10px rgba(54, 13, 124, 0.7);
+    border-radius: 25px;
+}
+
+.slide-in-right {
+	animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes slide-in-right {
+    0% {
+        transform: translateX(1000px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.nada{
+    display: none;
+}
+
+.slide-out-right {
+	animation: slide-out-right 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@keyframes slide-out-right {
+    0% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(1000px);
+        opacity: 0;
+    }
+}
+
+
+.borde,.margen{
+    border-radius: 25px;
+}
+
+.margen{
+    padding-right: 10px;
+}
+
+.list-group{
+    max-height: 400px;
+    min-height: 400px;
+    margin-bottom: 10px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+  /* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.delete{
+    color: red;
+    visibility:hidden;
+}
+
+.delete:hover {
+    visibility: visible;
+}
+
+.pet-pic{
+    height: 230px;
+    width: 310px;
+}
+
+.pet-info{
+    height: 230px;
+    width: 270px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(54, 13, 124, 0.7);
+    font-size: larger;
+}
+
+.profile-img {
+    height: 150px;
+    width: 150px;
+}
+
+.hover-effect:hover {
+    opacity: 0.85;
+    background-color:#AB46D2;
+    box-shadow: 0 0 15px rgba(54, 13, 124, 0.7);
+    font-weight: bold;
+}
+
+.hover-nav:hover {
+    opacity: 0.85;
+    box-shadow: 0 0 15px rgba(54, 13, 124, 0.7);
+    border-radius: 5%;
+    font-weight: bold;
+}
+
+.btn-services {
+    background-color:#AB46D2;
+    color:white; 
+    border:none;
+}
+
+.pointer:hover{
+    cursor: pointer;
+}
+
+.service-form{
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0 0 10px rgba(54, 13, 124, 0.7);
+    height: 100%;
+}
+
+.my-services {
+    box-shadow: 0 0 10px rgba(54, 13, 124, 0.7);
+    border-radius: 5px;
+}
+
+.my-services:hover {
+    color:#AB46D2;
+    opacity: 0.95;
+    font-weight:500;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(54, 13, 124, 0.7);
+    border-radius: 5px;
+}
+
+.private-title {
+    box-shadow: 0 0 10px rgba(54, 13, 124, 0.7);
+    border-radius: 5px;
+}
+
+.btn-landing {
+    box-shadow: 0 0 10px rgba(54, 13, 124, 0.7);
+    border-radius: 5px;
+}
+
+.btn-landing:hover {
+    color:white;
+    opacity: 0.95;
+    font-weight:bolder;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(54, 13, 124, 0.7);
+    border-radius: 5px;
+}

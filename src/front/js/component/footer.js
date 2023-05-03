@@ -1,10 +1,16 @@
 import React, { Component } from "react";
+import "../../styles/home.css";
 
 export const Footer = () => (
-	<footer className="footer mt-auto py-3 text-center">
-		<p>
-			Made with <i className="fa fa-heart text-danger" /> by{" "}
-			<a href="http://www.4geeksacademy.com">4Geeks Academy</a>
-		</p>
+	<footer className="footer container-fluid py-3 d-flex align-items-center justify-content-center" style={{minHeight:"5vh", backgroundColor:"#AB46D2",  bottom: 0, width: "100%"}}>
+	  <p className="d-flex align-items-center justify-content-center text-white m-0 me-3">Made with Love! at 4Geeks Academy
+	  </p>
+	  <div className="social-links">
+		<i className= "fa-brands fa-facebook me-2 text-light  fa-2x fa-lg"></i>
+		<i className= "fa-brands fa-instagram me-2 text-light  fa-2x fa-lg"></i>
+		<i className= "fa-brands fa-linkedin me-5 pe-5 text-light fa-2x fa-lg"></i>
+	  </div>
 	</footer>
-);
+  );
+  
+
